@@ -5,6 +5,7 @@
   "devDependencies": {
     "@0x/order-utils": "^10.4.14",
     "@codechecks/client": "^0.1.10",
+    "@eth-optimism/solc": "^0.7.6-alpha.1",
     "@openzeppelin/cli": "^2.8.2",
     "@openzeppelin/test-helpers": "^0.5.4",
     "@types/chai": "4.2.5",
