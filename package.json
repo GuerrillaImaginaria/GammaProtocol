@@ -25,6 +25,7 @@
     "ethereumjs-util": "^7.0.7",
     "ethereumjs-wallet": "^1.0.1",
     "ethers": "^5.0.26",
+    "hardhat": "^2.1.2",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
@@ -126,6 +127,7 @@
   },
   "homepage": "https://github.com/opynfinance/GammaProtocol#readme",
   "dependencies": {
+    "@eth-optimism/plugins": "^1.0.0-alpha.2",
     "@truffle/hdwallet-provider": "^1.0.44",
     "solc-0.6.10": "npm:solc@^0.6.10",
     "solidity-docgen": "^0.5.6",

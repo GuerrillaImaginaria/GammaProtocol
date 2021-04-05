@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: UNLICENSED */
 
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 import {Spawn} from "./packages/Spawn.sol";
 import {Create2} from "./packages/oz/Create2.sol";

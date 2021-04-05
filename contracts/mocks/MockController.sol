@@ -1,7 +1,7 @@
 /**
  * SPDX-License-Identifier: UNLICENSED
  */
-pragma solidity 0.6.10;
+pragma solidity 0.6.12;
 
 // import "../packages/oz/upgradeability/VersionedInitializable.sol";
 import "../interfaces/OtokenInterface.sol";

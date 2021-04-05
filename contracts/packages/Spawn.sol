@@ -1,6 +1,6 @@
 /* solhint-disable avoid-low-level-calls, indent, no-inline-assembly */
 /* This contract is copied from Spawner package: https://github.com/0age/Spawner */
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 /**
  * @title Spawn

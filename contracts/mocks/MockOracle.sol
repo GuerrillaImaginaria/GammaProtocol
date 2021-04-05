@@ -1,4 +1,4 @@
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 import {SafeMath} from "../packages/oz/SafeMath.sol";
 import {OpynPricerInterface} from "../interfaces/OpynPricerInterface.sol";

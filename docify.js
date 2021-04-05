@@ -61,7 +61,7 @@ const args = [
     "--input="         + INPUT_DIR,
     "--output="        + OUTPUT_DIR,
     "--templates="     + CONFIG_DIR,
-    '--solc-module='   + 'solc-0.6.10',
+    '--solc-module='   + 'solc-0.6.12',
     "--solc-settings=" + JSON.stringify({optimizer: {enabled: true, runs: 200},})
 ];
 

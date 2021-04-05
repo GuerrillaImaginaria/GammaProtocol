@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity ^0.6.2;
 
 /**
@@ -52,13 +51,13 @@ library Address {
      * {ReentrancyGuard} or the
      * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].
      */
-    function sendValue(address payable recipient, uint256 amount) internal {
-        require(address(this).balance >= amount, "Address: insufficient balance");
+    // function sendValue(address payable recipient, uint256 amount) internal {
+    //     require(address(this).balance >= amount, "Address: insufficient balance");
 
-        // solhint-disable-next-line avoid-low-level-calls, avoid-call-value
-        (bool success, ) = recipient.call{value: amount}("");
-        require(success, "Address: unable to send value, recipient may have reverted");
-    }
+    //     // solhint-disable-next-line avoid-low-level-calls, avoid-call-value
+    //     (bool success, ) = recipient.call{value: amount}("");
+    //     require(success, "Address: unable to send value, recipient may have reverted");
+    // }
 
     /**
      * @dev Performs a Solidity function call using a low level `call`. A

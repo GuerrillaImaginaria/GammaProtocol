@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 /* solhint-disable */
 
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 /**
  * @dev Helper to make usage of the `CREATE2` EVM opcode easier and safer.
@@ -33,7 +33,8 @@ library Create2 {
         bytes memory bytecode
     ) internal returns (address) {
         address addr;
-        require(address(this).balance >= amount, "Create2: insufficient balance");
+        // remove because of ovm
+        // require(address(this).balance >= amount, "Create2: insufficient balance");
         require(bytecode.length != 0, "Create2: bytecode length is zero");
         // solhint-disable-next-line no-inline-assembly
         assembly {

@@ -1,7 +1,7 @@
 /**
  * SPDX-License-Identifier: UNLICENSED
  */
-pragma solidity 0.6.10;
+pragma solidity 0.6.12;
 
 /**
  * @dev Contract interface that can be called from Controller as a call action.

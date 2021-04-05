@@ -1,7 +1,7 @@
 /**
  * SPDX-License-Identifier: UNLICENSED
  */
-pragma solidity 0.6.10;
+pragma solidity 0.6.12;
 
 import {OpynPricerInterface} from "./interfaces/OpynPricerInterface.sol";
 import {Ownable} from "./packages/oz/Ownable.sol";

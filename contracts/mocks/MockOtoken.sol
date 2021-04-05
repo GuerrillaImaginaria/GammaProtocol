@@ -1,4 +1,4 @@
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 import {ERC20PermitUpgradeable} from "../packages/oz/upgradeability/erc20-permit/ERC20PermitUpgradeable.sol";
 import {AddressBookInterface} from "../interfaces/AddressBookInterface.sol";

@@ -1,4 +1,4 @@
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 import {OtokenSpawner} from "./OtokenSpawner.sol";
 import {SafeMath} from "./packages/oz/SafeMath.sol";

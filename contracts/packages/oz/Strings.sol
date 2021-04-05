@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 /* solhint-disable */
-pragma solidity =0.6.10;
+pragma solidity =0.6.12;
 
 /**
  * @dev String operations.

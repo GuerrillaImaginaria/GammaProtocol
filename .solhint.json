@@ -5,7 +5,7 @@
     "prettier/prettier": "error",
     "var-name-mixedcase": "off",
     "mark-callable-contracts": "off",
-    "compiler-version":["error", "0.6.10"],
+    "compiler-version":["error", "0.6.12"],
     "not-rely-on-time": "off",
     "no-complex-fallback": "off",
     "no-inline-assembly": "off",
